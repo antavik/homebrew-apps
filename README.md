@@ -1,21 +1,23 @@
-# homebrew-tap
+# homebrew-apps
 
-Homebrew tap for [glinet-cli](https://github.com/antavik/glinet-cli).
+Homebrew tap for antavik's applications.
 
-## Usage
+## Apps
 
-```sh
-brew install antavik/tap/glinet-cli
-```
+| App | Install |
+|-----|---------|
+| [glinet-cli](https://github.com/antavik/glinet-cli) | `brew install antavik/apps/glinet-cli` |
 
-Using the full name trusts only this formula, not the whole tap.
+Using the full name trusts only the formula, not the whole tap.
 
 ## How it works
 
-`Formula/glinet-cli.rb` is generated and pushed automatically by the
-[glinet-cli release workflow](https://github.com/antavik/glinet-cli/actions/workflows/release.yml)
-after every release: prebuilt binaries for macOS and Linux (arm64/amd64) with
-SHA-256 checksums taken from the release's `checksums.txt`. Do not edit the
-formula by hand — changes are overwritten on the next release.
+Formulas in `Formula/` are generated and pushed automatically by each app's
+release workflow. For glinet-cli, the
+[release workflow](https://github.com/antavik/glinet-cli/actions/workflows/release.yml)
+updates `Formula/glinet-cli.rb` after every release: prebuilt binaries for
+macOS and Linux (arm64/amd64) with SHA-256 checksums taken from the release's
+`checksums.txt`. Do not edit generated formulas by hand — changes are
+overwritten on the next release.
 
-The formula appears here after the first release (`v0.1.0`).
+Casks for GUI apps can live in `Casks/` (none yet).
