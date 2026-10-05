@@ -2,28 +2,28 @@
 class GlinetCli < Formula
   desc "Command-line interface for GL.iNet routers"
   homepage "https://github.com/antavik/glinet-cli"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/antavik/glinet-cli/releases/download/v0.1.1/glinet-cli_0.1.1_darwin_arm64.tar.gz"
-      sha256 "1e99f82b5e76f960b2c961ef427217e77e262c29b118df6bce668aa87915a66d"
+      url "https://github.com/antavik/glinet-cli/releases/download/v0.2.0/glinet-cli_0.2.0_darwin_arm64.tar.gz"
+      sha256 "39cda0a2a53bdf9f289da5f0587cb4fad50cc837fe5eeebf7644e06d63c1026f"
     end
     on_intel do
-      url "https://github.com/antavik/glinet-cli/releases/download/v0.1.1/glinet-cli_0.1.1_darwin_amd64.tar.gz"
-      sha256 "eb0889c5c482ce4e96b73aea5c27ca5aceee04ef2855766f0adc9e69393ee353"
+      url "https://github.com/antavik/glinet-cli/releases/download/v0.2.0/glinet-cli_0.2.0_darwin_amd64.tar.gz"
+      sha256 "81c2d3b62680766def3d07d69d7853eaaa4ca2a5808fbe88e1ab68c8b15c571c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/antavik/glinet-cli/releases/download/v0.1.1/glinet-cli_0.1.1_linux_arm64.tar.gz"
-      sha256 "a092f6b9758fb99ff25b03f91aa1d8e6d2c8b83056c2132a52e872028791f522"
+      url "https://github.com/antavik/glinet-cli/releases/download/v0.2.0/glinet-cli_0.2.0_linux_arm64.tar.gz"
+      sha256 "41855dc796ef1ab4b597925e741abc4339b5b94aeedaa207665e11adabd6982b"
     end
     on_intel do
-      url "https://github.com/antavik/glinet-cli/releases/download/v0.1.1/glinet-cli_0.1.1_linux_amd64.tar.gz"
-      sha256 "82716ffdf2cdce2f95ec54c3f82d7b52d806a9d654b631fba4224b3b004fe240"
+      url "https://github.com/antavik/glinet-cli/releases/download/v0.2.0/glinet-cli_0.2.0_linux_amd64.tar.gz"
+      sha256 "5158978305a84f1aa5a283da7e80182da79656c0dfb8b7af67c89d9be40b92d4"
     end
   end
 
