@@ -3,8 +3,8 @@
 # rewrites the version + sha256 lines on every release. Later edits to anything
 # else here have to be copied to the tap by hand.
 cask "leap-widget" do
-  version "0.1.0"
-  sha256 "5834ea05f70cd026b4ee2131b4697399a83d7ee3429c8e1651a5513049ef1b52"
+  version "0.1.1"
+  sha256 "9fbc58b5099fe5adbb8e300c174c28f778299fc9cc27135b8dc07eadbd78b1fe"
 
   url "https://github.com/antavik/Leap-widget/releases/download/v#{version}/Leap-Widget-#{version}.dmg"
   name "Leap Widget"
